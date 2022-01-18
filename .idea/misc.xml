@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Development/Android/PodlodkaComposeBasicsDemo/app/src/main/res/layout/activity_main.xml" value="0.5083333333333333" />
+        <entry key="..\:/Development/Android/PodlodkaComposeBasicsDemo/app/src/main/res/layout/cell_characteristic.xml" value="0.321875" />
+        <entry key="..\:/Development/Android/PodlodkaComposeBasicsDemo/app/src/main/res/layout/cell_description.xml" value="0.321875" />
+        <entry key="..\:/Development/Android/PodlodkaComposeBasicsDemo/app/src/main/res/layout/cell_header.xml" value="0.321875" />
+        <entry key="..\:/Development/Android/PodlodkaComposeBasicsDemo/app/src/main/res/layout/cell_header_image.xml" value="0.321875" />
+        <entry key="..\:/Development/Android/PodlodkaComposeBasicsDemo/app/src/main/res/layout/cell_master.xml" value="0.5083333333333333" />
+        <entry key="..\:/Development/Android/PodlodkaComposeBasicsDemo/app/src/main/res/layout/fragment_detail.xml" value="0.25" />
+        <entry key="..\:/Development/Android/PodlodkaComposeBasicsDemo/app/src/main/res/layout/fragment_master.xml" value="0.3905109489051095" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
