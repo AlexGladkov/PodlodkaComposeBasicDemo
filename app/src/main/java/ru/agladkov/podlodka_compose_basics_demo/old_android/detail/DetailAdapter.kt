@@ -5,6 +5,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.Text
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.unit.dp
 import androidx.recyclerview.widget.RecyclerView
 import ru.agladkov.podlodka_compose_basics_demo.R
 import java.lang.IllegalStateException
@@ -131,11 +137,17 @@ class DetailAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     class DescriptionViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView),
         BindableViewHolder {
-        private val descriptionView = itemView.findViewById<TextView>(R.id.descriptionView)
+        private val rootView = itemView as ComposeView
 
         override fun bind(model: BaseDetailModel) {
             (model as? DescriptionDetailModel)?.let {
-                descriptionView.text = it.description
+                rootView.setContent {
+                    Text(
+                        modifier = Modifier.padding(16.dp),
+                        text = model.description,
+                        color = Color.Black
+                    )
+                }
             }
         }
     }
